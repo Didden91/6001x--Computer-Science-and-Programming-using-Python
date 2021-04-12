@@ -1,0 +1,63 @@
+current = -1
+
+nieuwe letter:
+
+hoe verhoud de letter zich tot de alfabet index
+
+
+
+is nieuw hoger dan huidige letter:
+	MOOI
+	current = indexgetal nieuw
+	huidige reeks + nieuwe letter
+	
+niet hoger dan huidige letter:
+	streak over
+	current = indexgetal nieuw
+
+
+
+als lengte huidige streak hoger dan record:
+	record = huidige streak
+
+
+s = 'bcbnvfnxbtwmefpgetdbz'
+bnv
+s = 'goerixsxhiodgcav'
+hio
+s = 'qpdljcgd'
+dl
+s = 'htgtjyob'
+ht
+s = 'ijydefykes'
+defy
+s = 'zntvmcgewativdxqujd'
+ntv
+s = 'dsitushmtwvopswiqwgg'
+hmtw
+s = 'abcdefghijklmnopqrstuvwxyz'
+abcdefghijklmnopqrstuvwxyz
+s = 'gwcemsfcepgnzdfwucwam'
+cems
+s = 'yrtxajjjixe'
+ajjj
+s = 'wyhcaqlxlxcqzpdqojxgvarf'
+cqz
+s = 'zyxwvutsrqponmlkjihgfedcba'
+z
+s = 'drdzevrdvamqs'
+amqs
+s = 'bdyyhocallvzkz'
+allvz
+s = 'hwejiswllhl'
+isw
+s = 'hghcuagkdd'
+agk
+s = 'ueyniihstzz'
+hstzz
+s = 'oummtygcvkdjqtttkh'
+djqttt
+s = 'tciqsukoolabdxklxa'
+ciqzu
+s = 'wtbcwcmbrbdpc'
+bcw
