@@ -1,0 +1,44 @@
+fixedmonthlypayment is $10
+
+totalyearlycost = balance + ((monintrate * balance) * remainingmonths)
+
+is de monthly payment genoeg om het alles af te betalen?
+
+is 10 x resterende maanden => totalyearlycost
+nee?
+dan +10
+
+is 20 x resterende maanden => totalyearlycost
+
+etc
+
+komt een bedrag uit rond 300
+
+trek dat bedrag af van de balance
+
+nieuwebalance is (start - 300) x interest
+
+
+totalremainingcost = niewebalance + ((monintrate * nieuwebalance) * remainingmonths)
+
+
+
+nu volgt een check (volgende run door de loop?)
+
+is het bedrag (vastgesteld op 300) nog steeds genoeg om het in een jaar af te betalen:
+
+is monthlypayment nu groter of gelijk aan de =>  NIEUWE totalremaingcosts / maanden
+
+zo ja, ga door met de loop.
+
+zo nee, spring uit de loop en probeer het HELE verhaal opnieuw met een hogere monthlypay
+
+
+fixed monthly pay gooi je door het hele verhaal! als hij ergens te laag blijkt, reset HELEMAAL! doe er 10 bij, probeer opnieuw
+
+NERGENS BALANCE AANPASSEN
+NERGENS totalyearlycost aanpassen
+
+in plaats hiervan een NEWbalance maken
+en een totalREMAININGcost maken
+
